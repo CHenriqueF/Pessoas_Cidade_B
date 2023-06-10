@@ -2,9 +2,14 @@
 #include <fstream>
 #include <cmath>
 #include <cstring>
+#include <vector>
 using namespace std;
+<<<<<<< HEAD:1.2.cpp
 ofstream Saida;
 
+=======
+//teste
+>>>>>>> c18cf70d6bcdce8685e6ef18bd2ca8caeb71e2d7:1.1.cpp
 class Pessoa{
     private:
         string nome;
