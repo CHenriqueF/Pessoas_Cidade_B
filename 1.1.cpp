@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cmath>
 #include <cstring>
+#include <vector>
 using namespace std;
 
 class Pessoa{
