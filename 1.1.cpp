@@ -16,11 +16,21 @@ class Pessoa{
             cout<< "Digite o salario da pessoa: ";
             cin>> salario;
         }
+        string mostrar_nome(){return nome;}
+        int mostrar_salario(){return salario;}
 };
 
 int main(){
+    int n;
 
-    cout<< "Hello world";
-    
+    cout<< "Digite quantas pessoas seram cadastradas: ";
+    cin>> n;
+
+    Pessoa *p = new Pessoa[n];
+
+    cout<< "Nome da pessoa cadastrada: "<< p->mostrar_nome()<< endl;
+    cout<< "Salario da pessoa cadastrada: "<< p->mostrar_salario()<< endl;
+
+    delete p;
     return 0;
 }
